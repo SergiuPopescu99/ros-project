@@ -1,0 +1,4 @@
+<launch>
+  <node name="turtlebot pkg="turtlesim" type="turtlesim_node" />
+  <node name="track_node" pkg="ros_tutorial" type="track_motion.py" />
+</launch>
